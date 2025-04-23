@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZStars - Chăm sóc ô tô chuyên nghiệp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>AZSTARS</h1>
+                <p>Chăm sóc ô tô chuyên nghiệp</p>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#services">Dịch vụ</a></li>
+                    <li><a href="#about">Về chúng tôi</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Dịch vụ chăm sóc ô tô hàng đầu</h2>
+            <p>Chúng tôi mang đến giải pháp chăm sóc xe toàn diện với công nghệ hiện đại và đội ngũ chuyên nghiệp</p>
+            <a href="#contact" class="btn">Liên hệ ngay</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+        <h2 class="section-title">Dịch vụ của chúng tôi</h2>
+        <div class="services-grid">
+            
+            <div class="service-card" style="background-image: url('https://i.pinimg.com/736x/9d/b1/b8/9db1b8e3757020600ffaf41ef47bbc64.jpg');">
+            <div class="card-overlay">
+                <i class="fa-solid fa-hand-sparkles"></i>
+                <h3>Rửa xe cao cấp</h3>
+                <p>Quy trình rửa xe 7 bước với công nghệ phủ ceramic bảo vệ sơn xe</p>
+            </div>
+            </div>
+            
+            <div class="service-card" style="background-image: url('https://i.pinimg.com/736x/f6/3e/13/f63e1362000c56bcb6d58ae5d4850d2b.jpg');">
+            <div class="card-overlay">
+                <i class="fas fa-oil-can"></i>
+                <h3>Thay nhớt - bảo dưỡng</h3>
+                <p>Sử dụng dầu nhớt chính hãng, thay thế phụ tùng chất lượng cao</p>
+            </div>
+            </div>
+            
+            <div class="service-card" style="background-image: url('https://i.pinimg.com/736x/d7/f1/59/d7f15906b15997986abd4ec50c719513.jpg');">
+            <div class="card-overlay">
+                <i class="fas fa-spray-can"></i>
+                <h3>Đánh bóng - Phủ ceramic</h3>
+                <p>Khôi phục độ bóng cho xe, bảo vệ lớp sơn với công nghệ phủ ceramic</p>
+            </div>
+            </div>
+            
+            <div class="service-card" style="background-image: url('https://i.pinimg.com/736x/6d/0d/b3/6d0db3a757af4d9489abbc79925687ab.jpg');">
+            <div class="card-overlay">
+                <i class="fas fa-tools"></i>
+                <h3>Sửa chữa - Bảo trì</h3>
+                <p>Đội ngũ kỹ thuật viên lành nghề với trang thiết bị hiện đại</p>
+            </div>
+            </div>
+    
+        </div>
+        </div>
+    </section>
+  
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Về chúng tôi</h2>
+                <p>Được thành lập với sứ mệnh mang đến dịch vụ chăm sóc ô tô chất lượng cao, đáp ứng mọi nhu cầu của khách hàng khó tính nhất.</p>
+                <p>Với đội ngũ kỹ thuật viên được đào tạo bài bản cùng hệ thống máy móc nhập khẩu từ châu Âu, chúng tôi tự tin mang đến trải nghiệm dịch vụ tốt nhất cho quý khách hàng.</p>
+                <ul class="about-features">
+                    <li><i class="fas fa-check"></i> 5 năm kinh nghiệm trong ngành</li>
+                    <li><i class="fas fa-check"></i> Hơn 10.000 khách hàng hài lòng</li>
+                    <li><i class="fas fa-check"></i> Sử dụng sản phẩm cao cấp</li>
+                    <li><i class="fas fa-check"></i> Bảo hành dài hạn</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Car service">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+
+        <!-- Các radio điều khiển đặt bên ngoài .container -->
+        <input type="radio" name="product-tab" id="car" checked>
+        <input type="radio" name="product-tab" id="sensor">
+        <input type="radio" name="product-tab" id="film">
+        <input type="radio" name="product-tab" id="accessory">
+
+        <h2 class="section-title">SẢN PHẨM</h2>
+
+        <!-- Tabs -->
+        <div class="product-tabs">
+            <label for="car">Đèn ô tô</label>
+            <label for="sensor">Cảm biến an toàn</label>
+            <label for="film">Phim cách nhiệt</label>
+            <label for="accessory">Phụ kiện</label>
+        </div>
+
+        <!-- Grids -->
+        <div class="product-container">
+
+            <!-- Đèn ô tô -->
+            <div class="product-grid" id="grid-car">
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/led-wolf-light-300x300.jpg" alt="Đèn LED Wolf">
+                <h3>Đèn LED Wolf</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/laser-z22-pro-1-300x300.jpg" alt="Z22 Pro">
+                <h3>Đèn Laser Z22 Pro</h3>
+                <div class="bottom"><span class="price">15,800,000 ₫</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/laser-jaguar-light-300x300.jpg" alt="Jaguar">
+                <h3>Đèn Laser Jaguar</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/laser-iron-light-300x300.jpeg" alt="Iron">
+                <h3>Đèn Laser Iron</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            </div>
+
+            <!-- Cảm biến -->
+            <div class="product-grid" id="grid-sensor">
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/tp-mt30-300x300.jpeg" alt="Cảm biến 1">
+                <h3>Cảm biến TP - MT30</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/tp-mt11pro-300x300.jpeg" alt="Cảm biến 2">
+                <h3>Cảm biến TP - MT11 Pro</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/tp-mt11-300x300.jpeg" alt="Cảm biến 3">
+                <h3>Cảm biến TP - MT11</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/t8pro.jpeg" alt="Camera 360">
+                <h3>Cảm biến T8 Pro</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            </div>
+
+            <!-- Phim -->
+            <div class="product-grid" id="grid-film">
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/titan-x-series-300x300.jpeg" alt="Phim 1">
+                <h3>Phim cách nhiệt Titan X Series</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/premier-series-300x300.jpeg" alt="Phim 2">
+                <h3>Phim cách nhiệt Premier Series</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/hikool-uvcare-300x300.jpeg" alt="Phim 3">
+                <h3>Phim cách nhiệt Hikool UVCare</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/hikool-innovative-series-300x300.jpeg" alt="Phim 4">
+                <h3>Phim cách nhiệt Hikool Innovative</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            </div>
+
+            <!-- Phụ kiện -->
+            <div class="product-grid" id="grid-accessory">
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/VO-LANG-CARBON-_2_-300x300.jpg" alt="Phụ kiện 1">
+                <h3>Vô lăng Carbon cho Ford</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/26-02-2020-1582702265-boc-vo-lang-300x300.jpg" alt="Phụ kiện 2">
+                <h3>Bọc vô lăng Ultra Racing URS-2</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/26-02-2020-1582701138-boc-vo-lang-3-300x300.jpg" alt="Phụ kiện 3">
+                <h3>Bọc vô lăng Ultra Racing URS-201</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            <div class="product-card">
+                <img src="http://tech.mypagedemo.com/azstars/wp-content/uploads/2023/02/SPC1111GR-300x300.jpg" alt="Phụ kiện 4">
+                <h3>Bọc vô lăng Sparco Corsa</h3>
+                <div class="bottom"><span class="price">Liên hệ</span><button class="arrow">›</button></div>
+            </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <input type="radio" name="testimonial" id="test1" checked>
+        <input type="radio" name="testimonial" id="test2">
+        <input type="radio" name="testimonial" id="test3">
+      
+        <div class="testimonial-content">
+          <!-- Avatar Slides -->
+          <div class="testimonial-left">
+            <div class="testimonial-card card1">
+              <img src="https://i.pinimg.com/736x/63/17/18/631718f0e4eccb97c5b9e29cd5a777a9.jpg" alt="Thuỳ Trang">
+              <h4>Thuỳ Trang</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial-card card2">
+              <img src="https://i.pinimg.com/736x/03/eb/d6/03ebd625cc0b9d636256ecc44c0ea324.jpg" alt="Anh Minh">
+              <h4>Anh Minh</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="testimonial-card card3">
+              <img src="https://i.pinimg.com/736x/38/65/a3/3865a3b5bbbdd1e16ab93aa62180cc73.jpg" alt="Chị Hương">
+              <h4>Chị Hương</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+      
+          <div class="testimonial-right">
+            <h2>Khách hàng nói gì về AZ STARS</h2>
+            <div class="testimonial-text">
+              <div class="slide slide1">
+                <p>"AZ STARS mang lại trải nghiệm tuyệt vời, dịch vụ nhanh và nhân viên thân thiện."</p>
+              </div>
+              <div class="slide slide2">
+                <p>"Tôi rất hài lòng với phụ kiện mà AZ STARS cung cấp, sẽ giới thiệu bạn bè."</p>
+              </div>
+              <div class="slide slide3">
+                <p>"Tôi thật sự ngạc nhiên với đội ngũ nhân viên chuyên nghiệp và nhiệt tình."</p>
+              </div>
+            </div>
+            <div class="testimonial-nav">
+              <label for="test1"></label>
+              <label for="test2"></label>
+              <label for="test3"></label>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Liên hệ với chúng tôi</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Đường ABC, Quận XYZ, TP.HCM</p>
+                    <p><i class="fas fa-phone"></i> 0901 234 567</p>
+                    <p><i class="fas fa-envelope"></i> info@carservice.com</p>
+                    <p><i class="fas fa-clock"></i> Mở cửa: 8:00 - 18:00 hàng ngày</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Họ và tên" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Số điện thoại" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Nội dung liên hệ" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Gửi liên hệ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>AZSTARS</h3>
+                    <p>Dịch vụ chăm sóc ô tô chuyên nghiệp với tiêu chuẩn chất lượng cao.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liên kết</h3>
+                    <ul>
+                        <li><a href="#home">Trang chủ</a></li>
+                        <li><a href="#services">Dịch vụ</a></li>
+                        <li><a href="#about">Về chúng tôi</a></li>
+                        <li><a href="#contact">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AZStars. Tất cả quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
